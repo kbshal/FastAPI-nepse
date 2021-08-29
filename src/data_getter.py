@@ -83,7 +83,7 @@ class Scrap:
                     except IndexError:
                         break
             
-        companies.append({"Toal time taken":time.time()-start})
+        companies.append({"Total time taken":time.time()-start})
         return companies
       
 
